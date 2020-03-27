@@ -4,14 +4,14 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Ecommerce.Paginas.UserPage"
-             Title="Olimpic GYM "
+             x:Class="Ecommerce.Paginas.Productos"
+             Title="Producto"
              BackgroundColor="{StaticResource BackgroundColor}"
-              BindingContext="{Binding Main, Source={StaticResource Locator}}">
+            BindingContext="{Binding Main, Source={StaticResource Locator}}">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Ecommerce App"
-                TextColor="{StaticResource FontColor}"
+            <Label Text="Productos"
+                TextColor="{StaticResource AccentColor}"    
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

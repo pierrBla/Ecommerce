@@ -5,7 +5,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
             xmlns:pages="clr-namespace:Ecommerce.Paginas;assembly=Ecommerce"
-             x:Class="Ecommerce.Paginas.MasterPage">
+             x:Class="Ecommerce.Paginas.MasterPage"
+                   Title="Master"
+             BackgroundColor="{StaticResource BackgroundColor}"
+            BindingContext="{Binding Main, Source={StaticResource Locator}}">
     
     <MasterDetailPage.Master>
         <pages:MenuPage></pages:MenuPage>
