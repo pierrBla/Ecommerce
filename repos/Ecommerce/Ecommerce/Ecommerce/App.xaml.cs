@@ -22,7 +22,8 @@ namespace Ecommerce
         {
             InitializeComponent();
 
-            MainPage = new MasterPage();
+            MainPage = new LoginPage();
+          //  MainPage = new MasterPage();
             
              
         }

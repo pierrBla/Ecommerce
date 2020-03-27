@@ -37,5 +37,9 @@ namespace Ecommerce.Servicios
             }
         }
 
+        internal void SetMailPage()
+        {
+            App.Current.MainPage = new MasterPage();
+        }
     }
 }

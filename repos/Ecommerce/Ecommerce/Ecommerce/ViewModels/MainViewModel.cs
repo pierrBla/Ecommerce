@@ -10,12 +10,15 @@ namespace Ecommerce.ViewModels
 
         #region Propiedades
         public ObservableCollection<MenuItemViewModel> Menu { get; set; }
+
+        public LoginViewModel NewLogin { get; set; }
         #endregion
 
         #region Constructor
         public MainViewModel()
         {
             Menu = new ObservableCollection<MenuItemViewModel>();
+            NewLogin = new LoginViewModel();
             LoadMenu();
         }
         #endregion
